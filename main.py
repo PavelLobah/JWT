@@ -20,16 +20,16 @@ class User:
 
 # Фейковая база данных пользователей
 fake_users_db = {
-    "dima": {
-        "username": "dima",
-        "password": "pass",
-        "hashed_password": "$2b$12$N0UgK6OjG9CJv7c8gVQ3ce5iJbMFOXzGcOB3H0RYlSxT0n2kxF7WC",
+    "johndoe": {
+        "username": "johndoe",
+        "password": "123",
+        "hashed_password": "$2b$12$2BrM2Iu.diU8y/F6K309FuWnvSHkig9HjmbDpAeiZTH95bE4Y9Gn.",
         "disabled": False,
     },
     "pavel": {
         "username": "pavel",
         "password": "123",
-        "hashed_password": "$2b$12$N0UgK6OjG9CJv7c8gVQ3ce5iJbMFOXzGcOB3H0RYlSxT0n2kxF7WC",
+        "hashed_password": "$2b$12$2BrM2Iu.diU8y/F6K309FuWnvSHkig9HjmbDpAeiZTH95bE4Y9Gn.",
         "disabled": False,
     },
 }
